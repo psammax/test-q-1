@@ -1,0 +1,27 @@
+body{
+  background-image: linear-gradient( #d6b268,#2255a4);
+}
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+img{
+  width:300px;
+  height: 300px;
+  margin: 5px;
+  transition:all 1s;
+  box-shadow:4px 4px 4px #f56a79;
+}
+img:hover{
+  transform: rotate(360deg) scale(1.5,1.5);
+
+}
+h1{
+  color: #8181F7;
+}
+#wonders:hover{
+    transform: scale(2,2);
+    color: #ffe05d;
+    background-color: #2d6187;
+}
